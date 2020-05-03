@@ -4,6 +4,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 1440px;
@@ -13,18 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    &__search {
-        // margin-left: 36px;
-    }
-    &__notification {
-        // margin-left: 35px;
-    }
-    &__button--bordered {
-        // margin-left: 20px;
-    }
-    &__button--green {
-        // margin-left: 42px;
-    }
+    padding-top: 50px;
+    border-top: 3px solid #1b1b1b;
 }
 .logo {
     text-decoration: none;
@@ -56,6 +48,10 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: inline-block;
+    &:hover {
+        background-color: rgb(48, 143, 125);
+    }
 }
 .button--bordered {
     border: 1px solid #1B1B1B;
@@ -67,4 +63,76 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: inline-block;
+    &:hover {
+        background-color: #1b1b1b;
+        color: #ffffff;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    &__item {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #1b1b1b;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.big-books {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+.big-book {
+    width: 440px;
+    &__image {
+        background-color: #dddddd;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 35px;
+        img {
+            box-shadow: -12px 6px 21px rgba(0, 0, 0, 0.5);
+            border-radius: 5px 0px 0px 5px;
+        }
+    }
+    &__author {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #3AA491;
+        margin-bottom: 10px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+}
+.button--green--big {
+    background-color: #3AA491;
+    border-radius: 3px;
+    padding: 20px 70px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    &:hover {
+        background-color: rgb(48, 143, 125);
+    }
 }
