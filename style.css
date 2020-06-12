@@ -186,7 +186,7 @@ body {
 
 .bestsellers {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 .bestsellers__title {
@@ -283,5 +283,101 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 14px;
+}
+
+.popular {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.popular__books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 65px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular__bg-text {
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 288px;
+  position: absolute;
+  top: -20%;
+  color: rgba(27, 27, 27, 0.02);
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.popular__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.popular__bg {
+  width: 100%;
+  height: 250px;
+  background-color: #3aa491;
+  margin-top: -180px;
+}
+
+.popular-book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 440px;
+}
+
+.popular-book__author {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.44;
+  margin-bottom: 14px;
+}
+
+.popular-book__name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 14px;
+  margin-top: 20px;
+}
+
+.popular-book__content {
+  width: 325px;
+  height: 250px;
+  background-color: #DDDDDD;
+  -webkit-box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.2);
+  padding: 38px 0 38px 30px;
+}
+
+.popular-book__image {
+  -webkit-box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.2);
+}
+
+.popular-book__rating {
+  margin-top: 22px;
+}
+
+.popular-book__button {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
