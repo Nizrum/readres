@@ -31,43 +31,28 @@
             <a href="new-books.html" class="menu__item">Аудиокниги</a>
             <a href="new-books.html" class="menu__item">Что почитать?</a>
         </section>
-        
-        <section class="big-books">
-            <div class="big-books__big-book big-book">
-                <div class="big-book__image">
-                    <img src="img/big-book-1.jpg" alt="book-img">
+
+        <section class="page-navigation">
+            <div class="page-navigation__block">
+                <div class="page-navigation__breadcrumbs breadcrumbs">
+                    <div class="breadcrumbs__item">Библиотека</div>
+                    <img src="img/arrow.svg" alt="" class="breadcrumbs__arrow">
+                    <div class="breadcrumbs__item">Новинки</div>
                 </div>
-                <div class="big-book__text">
-                    <div class="big-book__author">Имя Фамилия</div>
-                    <div class="big-book__name">Короткое название книги</div>
-                    <a href="#" class="big-book__button--green--big button--green--big">Читать</a>
-                </div>
-            </div>
-            <div class="big-books__big-book big-book">
-                <div class="big-book__image">
-                    <img src="img/big-book-2.jpg" alt="book-img">
-                </div>
-                <div class="big-book__text">
-                    <div class="big-book__author">Имя Фамилия</div>
-                    <div class="big-book__name">Короткое название книги</div>
-                    <a href="#" class="big-book__button--green--big button--green--big">Читать</a>
+                <div class="page-navigation__title">Новинки</div>
+                <div class="page-navigation__sections sections">
+                    <div class="sections__item">Жанры</div>
+                    <div class="sections__item">Новинки</div>
+                    <div class="sections__item">Рекомедации</div>
                 </div>
             </div>
-            <div class="big-books__big-book big-book">
-                <div class="big-book__image">
-                    <img src="img/big-book-3.jpg" alt="book-img">
-                </div>
-                <div class="big-book__text">
-                    <div class="big-book__author">Имя Фамилия</div>
-                    <div class="big-book__name">Короткое название книги</div>
-                    <a href="#" class="big-book__button--green--big button--green--big">Читать</a>
-                </div>
+            <div class="page-navigation__filter filter">
+                <div class="filter__text">Печатные книги</div>
+                <img src="img/arrow.svg" alt="" class="filter__arrow">
             </div>
         </section>
-        
-        <section class="bestsellers">
-            <span class="bestsellers__bg-text">Бестселлеры</span>
-            <span class="bestsellers__title">Бестселлеры</span>
+
+        <section class="bestsellers new-books new-books--small">
             <div class="bestsellers__books">
                 <div class="bestsellers__book book">
                     <div class="book__tag tag--green">50 %</div>
@@ -126,7 +111,7 @@
                     </div>
                 </div>
                 <div class="bestsellers__book book">
-                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__tag tag--green">40 %</div>
                     <div class="book__img">
                         <img src="img/book-5.jpg" alt="book-img">
                     </div>
@@ -155,60 +140,8 @@
                 </div>
             </div>
         </section>
-
-        <section class="popular">
-            <span class="popular__bg-text">Популярное</span>
-            <span class="popular__title">Популярное</span>
-            <div class="popular__books">
-                <div class="popular__popular-book popular-book">
-                    <img src="img/book-7.jpg" alt="book-img" class="popular-book__image">
-                    <div class="popular-book__content">
-                        <div class="popular-book__author">Джен Синсеро</div>
-                        <div class="popular-book__name">НИ СЫ. Восточная мудрость, которая...</div>
-                        <div class="popular-book__rating rating">
-                            <div class="rating__img">
-                                <img src="img/star.svg" alt="rating-img">
-                            </div>
-                            <span class="rating__count">4,7</span>
-                        </div>
-                        <a class="popular-book__button button--green">МОИ КНИГИ</a>
-                    </div>
-                </div>
-                <div class="popular__popular-book popular-book">
-                    <img src="img/book-8.jpg" alt="book-img" class="popular-book__image">
-                    <div class="popular-book__content">
-                        <div class="popular-book__author">Джен Синсеро</div>
-                        <div class="popular-book__name">НИ СЫ. Восточная мудрость, которая...</div>
-                        <div class="popular-book__rating rating">
-                            <div class="rating__img">
-                                <img src="img/star.svg" alt="rating-img">
-                            </div>
-                            <span class="rating__count">4,7</span>
-                        </div>
-                        <a class="popular-book__button button--green">МОИ КНИГИ</a>
-                    </div>
-                </div>
-                <div class="popular__popular-book popular-book">
-                    <img src="img/book-9.jpg" alt="book-img" class="popular-book__image">
-                    <div class="popular-book__content">
-                        <div class="popular-book__author">Джен Синсеро</div>
-                        <div class="popular-book__name">НИ СЫ. Восточная мудрость, которая...</div>
-                        <div class="popular-book__rating rating">
-                            <div class="rating__img">
-                                <img src="img/star.svg" alt="rating-img">
-                            </div>
-                            <span class="rating__count">4,7</span>
-                        </div>
-                        <a class="popular-book__button button--green">МОИ КНИГИ</a>
-                    </div>
-                </div>
-            </div>
-            <div class="popular__bg"></div>
-        </section>
-
-        <section class="bestsellers new-books">
-            <span class="bestsellers__bg-text">Новинки</span>
-            <span class="bestsellers__title">Новинки</span>
+        
+        <section class="bestsellers new-books new-books--small">
             <div class="bestsellers__books">
                 <div class="bestsellers__book book">
                     <div class="book__tag tag--green">50 %</div>
@@ -267,7 +200,7 @@
                     </div>
                 </div>
                 <div class="bestsellers__book book">
-                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__tag tag--green">40 %</div>
                     <div class="book__img">
                         <img src="img/book-5.jpg" alt="book-img">
                     </div>
@@ -296,7 +229,187 @@
                 </div>
             </div>
         </section>
+        
+        <section class="bestsellers new-books new-books--small">
+            <div class="bestsellers__books">
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__img">
+                        <img src="img/book-1.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-2.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__img">
+                        <img src="img/book-3.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-4.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">40 %</div>
+                    <div class="book__img">
+                        <img src="img/book-5.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-6.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="bestsellers new-books new-books--small">
+            <div class="bestsellers__books">
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__img">
+                        <img src="img/book-1.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-2.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">50 %</div>
+                    <div class="book__img">
+                        <img src="img/book-3.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-4.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--green">40 %</div>
+                    <div class="book__img">
+                        <img src="img/book-5.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+                <div class="bestsellers__book book">
+                    <div class="book__tag tag--gray">New</div>
+                    <div class="book__img">
+                        <img src="img/book-6.jpg" alt="book-img">
+                    </div>
+                    <div class="book__author">Джен Синсеро</div>
+                    <div class="book__name">НИ СЫ. Восточная мудрость, которая...</div>
+                    <div class="book__rating rating">
+                        <div class="rating__img">
+                            <img src="img/star.svg" alt="rating-img">
+                        </div>
+                        <span class="rating__count">4,7</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
+    
     <footer class="footer">
         <div class="footer__main">
             <a href="#" class="footer__logo logo">

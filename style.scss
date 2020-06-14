@@ -360,3 +360,72 @@ body {
         }
     }
 }
+
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+
+    &__title {
+        font-size: 64px;
+        line-height: 78px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    &__sections {
+        margin-top: 25px;
+    }
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    color: #1b1b1b;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.5;
+
+    &__arrow {
+        margin: 0 10px;
+        transform: rotate(-90deg);
+        width: 10px;
+    }
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 426px;
+    
+    &__item {
+        background-color: #DDDDDD;
+        border-radius: 3px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 7px 20px;
+    }
+
+    &__item:hover {
+        background-color: #3aa491;
+    }
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+
+    &__text {
+        margin-right: 10px;
+    }
+}
+
+.new-books--small {
+    margin-top: 80px;
+}
