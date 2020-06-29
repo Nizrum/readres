@@ -24,10 +24,23 @@
             <div class="header__notification">
                 <img src="img/bell.svg" alt="ntf">
             </div>
+            <!-- <button class="m-menu-button">
+                <div class="m-menu-button__line"></div>
+                <div class="m-menu-button__line"></div>
+                <div class="m-menu-button__line"></div>
+            </button> -->
             <button class="m-menu-button">
-                <div class="m-menu-button__line"></div>
-                <div class="m-menu-button__line"></div>
-                <div class="m-menu-button__line"></div>
+                <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                    <path
+                          class="line middle"
+                          d="m 70,50 h -40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                </svg>
             </button>
             <a href="#" class="header__button--green button--green">
                 Мои книги
@@ -40,6 +53,26 @@
             <a href="new-books.html" class="menu__item">Популярное</a>
             <a href="new-books.html" class="menu__item">Аудиокниги</a>
             <a href="new-books.html" class="menu__item">Что почитать?</a>
+        </section>
+        
+        <section class="mobile-menu">
+            <div class="mobile-menu__search">
+                <input type="text" class="mobile-menu__input">
+                <button class="mobile-menu__search-button">
+                    <img src="img/search-icon.svg" alt="">
+                </button>
+            </div>
+            <a href="new-books.html" class="mobile-menu__item">Новинки</a>
+            <a href="new-books.html" class="mobile-menu__item">Жанры</a>
+            <a href="new-books.html" class="mobile-menu__item">Популярное</a>
+            <a href="new-books.html" class="mobile-menu__item">Аудиокниги</a>
+            <a href="new-books.html" class="mobile-menu__item">Что почитать?</a>
+            <a href="#" class="mobile-menu__button--bordered button--bordered">
+                Войти
+            </a>
+            <a href="#" class="mobile-menu__button--bordered button--bordered">
+                Мои книги
+            </a>
         </section>
         
         <section class="big-books">
@@ -401,5 +434,7 @@
             </ul>    
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
