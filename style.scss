@@ -29,6 +29,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 50px;
+
+    &__notification {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 }
 
 .logo {
@@ -100,11 +107,23 @@ body {
         font-weight: 700;
         text-decoration: none;
         color: #1b1b1b;
-        
-        &:hover {
-            text-decoration: underline;
-        }
+        position: relative;
     }
+
+    &__item:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: #1b1b1b;
+        display: block;
+        transform: scale(0);
+        transition: 0.25s;
+    }
+}
+
+.menu__item:hover:after {
+    transform: scale(1);
 }
 
 .big-books {

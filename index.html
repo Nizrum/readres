@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>РидРес - книжный интернет-магазин</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="line"></div>
+    <div class="line animate__animated animate__fadeInDown"></div>
 
     <div class="container">
         
-        <header class="header"> 
+        <header class="header animate__animated animate__fadeInDown"> 
             <a href="index.html" class="header__logo logo">
                 Рид<span>Рес</span>
             </a>
@@ -21,9 +25,9 @@
             <a href="#" class="header__button--bordered button--bordered">
                 Войти
             </a>
-            <div class="header__notification">
+            <button class="header__notification">
                 <img src="img/bell.svg" alt="ntf">
-            </div>
+            </button>
             <button class="m-menu-button">
                 <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
                     <path
@@ -42,7 +46,7 @@
             </a>
         </header>
         
-        <nav class="menu">
+        <nav class="menu animate__animated animate__fadeInDown">
             <a href="new-books.html" class="menu__item">Новинки</a>
             <a href="new-books.html" class="menu__item">Жанры</a>
             <a href="new-books.html" class="menu__item">Популярное</a>
@@ -54,7 +58,7 @@
             <div class="mobile-menu__search">
                 <input type="text" class="mobile-menu__input">
                 <button class="mobile-menu__search-button">
-                    <img src="img/search-icon.svg" alt="">
+                    <img src="img/search-icon.svg" alt="srch">
                 </button>
             </div>
             <a href="new-books.html" class="mobile-menu__item">Новинки</a>
@@ -70,7 +74,7 @@
             </a>
         </nav>
         
-        <section class="big-books">
+        <section class="big-books animate__animated animate__fadeIn">
             <div class="big-books__big-book big-book">
                 <div class="big-book__image">
                     <img src="img/big-book-1.jpg" alt="book-img">
@@ -103,7 +107,7 @@
             </div>
         </section>
         
-        <section class="bestsellers">
+        <section class="bestsellers animate__animated animate__fadeIn">
             <span class="bestsellers__bg-text">Бестселлеры</span>
             <h2 class="bestsellers__title">Бестселлеры</h2>
             <div class="bestsellers__books">
@@ -194,7 +198,7 @@
             </div>
         </section>
 
-        <section class="popular">
+        <section class="popular animate__animated animate__fadeIn">
             <span class="popular__bg-text">Популярное</span>
             <h2 class="popular__title">Популярное</h2>
             <div class="popular__books">
@@ -244,7 +248,7 @@
             <div class="popular__bg"></div>
         </section>
 
-        <section class="bestsellers new-books">
+        <section class="bestsellers new-books animate__animated animate__fadeIn">
             <span class="bestsellers__bg-text">Новинки</span>
             <h2 class="bestsellers__title">Новинки</h2>
             <div class="bestsellers__books">
@@ -336,7 +340,7 @@
         </section>
     </div>
     
-    <footer class="footer">
+    <footer class="footer animate__animated animate__fadeInUp">
         
         <div class="footer__wrap">
             <div class="footer__main">
