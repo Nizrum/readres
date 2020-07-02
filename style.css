@@ -286,6 +286,7 @@ body {
   line-height: 24px;
   margin-bottom: 14px;
   color: #1b1b1b;
+  min-height: 48px;
 }
 
 .rating {
@@ -395,6 +396,10 @@ body {
   line-height: 24px;
   margin-bottom: 14px;
   margin-top: 20px;
+  height: 48px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .popular-book__content {
@@ -536,7 +541,12 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.breadcrumbs__item {
   opacity: 0.5;
+  color: #1b1b1b;
+  text-decoration: none;
 }
 
 .breadcrumbs__arrow {
@@ -544,6 +554,7 @@ body {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   width: 10px;
+  opacity: 0.5;
 }
 
 .sections {

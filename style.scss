@@ -250,6 +250,7 @@ body {
         line-height: 24px;
         margin-bottom: 14px;
         color: #1b1b1b;
+        min-height: 48px;
     }
 }
 
@@ -344,6 +345,10 @@ body {
         line-height: 24px;
         margin-bottom: 14px;
         margin-top: 20px;
+        height: 48px;
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__content {
@@ -457,12 +462,18 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    opacity: 0.5;
+
+    &__item {
+        opacity: 0.5;
+        color: #1b1b1b;
+        text-decoration: none;
+    }
 
     &__arrow {
         margin: 0 10px;
         transform: rotate(-90deg);
         width: 10px;
+        opacity: 0.5;
     }
 }
 
